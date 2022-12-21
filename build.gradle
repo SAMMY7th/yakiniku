@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.0.0'
 	id 'io.spring.dependency-management' version '1.1.0'
+	id 'org.dddjava.jig-gradle-plugin' version '2022.11.1'
 }
 
 group = 'net.nocono'
@@ -20,3 +21,6 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+classes.mustRunAfter(clean)
+jigReports.dependsOn(clean, classes)
