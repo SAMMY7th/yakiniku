@@ -1,5 +1,7 @@
 package net.nocono.yakiniku.domain.model;
 
+import net.nocono.yakiniku.domain.model.niku.肉;
+
 /**
  * 焼肉
  */

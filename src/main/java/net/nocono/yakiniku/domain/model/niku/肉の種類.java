@@ -1,4 +1,4 @@
-package net.nocono.yakiniku.domain.model;
+package net.nocono.yakiniku.domain.model.niku;
 
 /**
  * 肉の種類
